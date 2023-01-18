@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sass styles/scss:styles.css",
-    "watch": "sass --watch styles/scss:styles.css"
+    "build": "sass styles/scss:styles/css",
+    "watch": "watch 'npm run build' ./styles/scss"
   },
   "repository": {
     "type": "git",
