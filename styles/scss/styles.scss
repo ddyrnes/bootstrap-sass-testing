@@ -1,3 +1,25 @@
 body {
   background-color: darkblue;
 }
+$primary-colour: #ff00c8;
+
+p {
+  color: $primary-colour;
+}
+$colors: (
+  "primary": #ff1100,
+  "secondary": #ffff00,
+);
+h1,
+h2 {
+  color: map-get($colors, primary);
+}
+h3 {
+  color: map-get($colors, secondary);
+}
+ul {
+  background-color: $primary-colour;
+  &-li {
+    color: map-get($colors, primary);
+  }
+}

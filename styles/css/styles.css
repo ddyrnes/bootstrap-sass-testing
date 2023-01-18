@@ -2,4 +2,24 @@ body {
   background-color: darkblue;
 }
 
+p {
+  color: #ff00c8;
+}
+
+h1,
+h2 {
+  color: #ff1100;
+}
+
+h3 {
+  color: #ffff00;
+}
+
+ul {
+  background-color: #ff00c8;
+}
+ul-li {
+  color: #ff1100;
+}
+
 /*# sourceMappingURL=styles.css.map */
