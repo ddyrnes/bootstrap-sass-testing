@@ -1,25 +1,12 @@
-body {
-  background-color: darkblue;
-}
-$primary-colour: #ff00c8;
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+// body {
+//   max-width: 1440px;
+// }
 
-p {
-  color: $primary-colour;
-}
-$colors: (
-  "primary": #ff1100,
-  "secondary": #ffff00,
-);
-h1,
-h2 {
-  color: map-get($colors, primary);
-}
-h3 {
-  color: map-get($colors, secondary);
-}
-ul {
-  background-color: $primary-colour;
-  &-li {
-    color: map-get($colors, primary);
-  }
+main {
+  background-image: url(/images/body_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0%;
 }
