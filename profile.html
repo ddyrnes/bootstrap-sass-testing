@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/css/styles.css" />
+    <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-gradient bg-light">
+      <div class="container">
+        <a href="#" class="navbar-brand col-2"
+          ><img src="/images/brand_logo.png" alt="brand icon" class="px-2" />Facegram</a
+        >
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navcollapse"
+          aria-controls="nav"
+          aria-label="Expand Navigation"
+        >
+          <div class="navbar-toggler-icon"></div>
+        </button>
+        <div
+          class="collapse navbar-collapse p-3 text-center justify-content-between col-10 flex-l-col"
+          id="navcollapse"
+        >
+          <div class="navbar-nav justify-content-md-center col row">
+            <div class="form-outline col-md-8 col">
+              <input type="search" id="form1" class="form-control p-2" placeholder="Search..." aria-label="Search" />
+            </div>
+          </div>
+          <div class="navbar-nav justify-content-end col-xl-3 col-lg-4 col-md-5 col flex-row mt-2 gap-2">
+            <div class="nav-item col">
+              <a href="login.html" class="nav-link">Login</a>
+            </div>
+            <div class="nav-item col">
+              <a href="profile.html" class="nav-link active border rounded-2">Profile</a>
+            </div>
+            <div class="nav-item col">
+              <a href="#" class="nav-link">Home</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="container-xxl">
+      <div class="container position-top position-relative bg-white">
+        <div class="row p-3 justify-content-center align-content-center">
+          <div class="col">
+            <img src="/images/profile-img.png" alt="profile picture" />
+            <p>userprofile</p>
+          </div>
+          <div class="col">
+            <ul>
+              <li>Hanging out with friends</li>
+              <li>Partying</li>
+              <li>Art</li>
+              <li>Reading books</li>
+            </ul>
+          </div>
+          <div class="col">
+            <button class="btn btn-outline-primary">Follow</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
