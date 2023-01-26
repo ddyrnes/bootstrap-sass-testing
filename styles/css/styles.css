@@ -10826,6 +10826,10 @@ h6,
   font-family: "Anton", sans-serif;
 }
 
+h5, .h5 {
+  font-size: 1rem;
+}
+
 nav {
   z-index: 1;
 }
