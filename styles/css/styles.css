@@ -7017,6 +7017,10 @@ textarea.form-control-lg {
   top: 0 !important;
 }
 
+.top-30 {
+  top: 30% !important;
+}
+
 .top-50 {
   top: 50% !important;
 }
@@ -7027,6 +7031,10 @@ textarea.form-control-lg {
 
 .bottom-0 {
   bottom: 0 !important;
+}
+
+.bottom-30 {
+  bottom: 30% !important;
 }
 
 .bottom-50 {
@@ -7041,6 +7049,10 @@ textarea.form-control-lg {
   left: 0 !important;
 }
 
+.start-30 {
+  left: 30% !important;
+}
+
 .start-50 {
   left: 50% !important;
 }
@@ -7051,6 +7063,10 @@ textarea.form-control-lg {
 
 .end-0 {
   right: 0 !important;
+}
+
+.end-30 {
+  right: 30% !important;
 }
 
 .end-50 {
@@ -10782,16 +10798,15 @@ body {
   height: 100vh;
 }
 
-main {
+.background-img {
   background-image: url(/images/body_background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 100%;
 }
 
-.position-top {
-  top: 30%;
+main {
+  height: 100%;
 }
 
 .navbar {

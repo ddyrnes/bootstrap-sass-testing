@@ -17,15 +17,14 @@ h6 {
 body {
   height: 100vh;
 }
-main {
+.background-img {
   background-image: url(/images/body_background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 100%;
 }
-.position-top {
-  top: 30%;
+main {
+  height: 100%;
 }
 .navbar {
   position: absolute;

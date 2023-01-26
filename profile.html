@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="styles/css/styles.css" />
-    <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script defer src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <title>Bootstrap</title>
   </head>
   <body>
@@ -47,14 +47,15 @@
         </div>
       </div>
     </nav>
-    <main class="container-xxl">
-      <div class="container position-top position-relative bg-white">
-        <div class="row p-3 justify-content-center align-content-center">
-          <div class="col">
+    <main class="container-xxl bg-info">
+        <div class="row top-30 position-relative">
+      <div class="container bg-white col-md-10 col-xl-8">
+        <div class="row p-3 justify-content-center">
+          <div class="col-4">
             <img src="/images/profile-img.png" alt="profile picture" />
             <p>userprofile</p>
           </div>
-          <div class="col">
+          <div class="col-4">
             <ul>
               <li>Hanging out with friends</li>
               <li>Partying</li>
@@ -62,11 +63,15 @@
               <li>Reading books</li>
             </ul>
           </div>
-          <div class="col">
-            <button class="btn btn-outline-primary">Follow</button>
+          <div class="col-12">
+            <button class="btn btn-outline-primary float-end">Follow</button>
           </div>
         </div>
+
+    
+        </div>
       </div>
+    </div>
     </main>
   </body>
 </html>
