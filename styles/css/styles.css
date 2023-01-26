@@ -7017,6 +7017,14 @@ textarea.form-control-lg {
   top: 0 !important;
 }
 
+.top-10 {
+  top: 10% !important;
+}
+
+.top-20 {
+  top: 20% !important;
+}
+
 .top-30 {
   top: 30% !important;
 }
@@ -7031,6 +7039,14 @@ textarea.form-control-lg {
 
 .bottom-0 {
   bottom: 0 !important;
+}
+
+.bottom-10 {
+  bottom: 10% !important;
+}
+
+.bottom-20 {
+  bottom: 20% !important;
 }
 
 .bottom-30 {
@@ -7049,6 +7065,14 @@ textarea.form-control-lg {
   left: 0 !important;
 }
 
+.start-10 {
+  left: 10% !important;
+}
+
+.start-20 {
+  left: 20% !important;
+}
+
 .start-30 {
   left: 30% !important;
 }
@@ -7063,6 +7087,14 @@ textarea.form-control-lg {
 
 .end-0 {
   right: 0 !important;
+}
+
+.end-10 {
+  right: 10% !important;
+}
+
+.end-20 {
+  right: 20% !important;
 }
 
 .end-30 {
@@ -10792,6 +10824,10 @@ h5,
 h6,
 .h6 {
   font-family: "Anton", sans-serif;
+}
+
+nav {
+  z-index: 1;
 }
 
 body {
