@@ -10,9 +10,9 @@
     <title>Bootstrap</title>
   </head>
   <body class="bg-info">
-    <nav class="navbar navbar-expand-md bg-gradient bg-light">
+    <nav class="navbar navbar-expand-md bg-gradient bg-light sticky-top">
       <div class="container">
-        <a href="#" class="navbar-brand col-2"
+        <a href="#" class="navbar-brand col-2 nav-logo-text"
           ><img src="/images/brand_logo.png" alt="brand icon" class="px-2" />Facegram</a
         >
         <button
@@ -25,14 +25,14 @@
           <div class="navbar-toggler-icon"></div>
         </button>
         <div
-          class="collapse navbar-collapse p-3 text-center justify-content-between col-10 flex-l-col"
+          class="collapse navbar-collapse p-3 text-center justify-content-end col-10 flex-l-col"
           id="navcollapse"
         >
-          <div class="navbar-nav justify-content-md-center col row">
+          <!-- <div class="navbar-nav justify-content-md-center col row">
             <div class="form-outline col-md-8 col">
               <input type="search" id="form1" class="form-control p-2" placeholder="Search..." aria-label="Search" />
             </div>
-          </div>
+          </div> -->
           <div class="navbar-nav justify-content-end col-xl-3 col-lg-4 col-md-5 col flex-row mt-2 gap-2">
             <div class="nav-item col">
               <a href="login.html" class="nav-link">Login</a>
@@ -47,10 +47,10 @@
         </div>
       </div>
     </nav>
-    <main class="container-xxl bg-info">
-      <div class="container top-10 position-relative">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
+    <main class="bg-info">
+      <div class="container top-10 position-relative p-0 mt-3">
+        <div class="row justify-content-center m-0">
+          <div class="col-lg-8 row gap-2 p-0">
             <div class="card shadow bg-white p-4">
               <div class="card-body">
                 <class class="d-flex justify-content-center">
@@ -89,13 +89,21 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-8 mt-1">
-            <div class="row m-0 gap-2">
-              <div class="card shadow">
-                <h3 class="p-4">Friends (8)</h3>
+            <div class="card shadow">
+              <div class="container">
+                <div class="row p-4 m-0">
+                  <div class="col p-0">
+                    <h3 class="">Friends (8)</h3>
+                  </div>
+                  <div class="col-sm-6 col-xs-12 p-0 d-flex align-items-center justify-content-end">
+                    <div>
+                      <form class="d-flex">
+                        <input class="form-control rounded-0 rounded-start" type="search" placeholder="Search user" aria-label="Search">
+                        <button class="btn btn-primary rounded-0 rounded-end" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
                 <div class="row px-4">
                   <div class="col-6 col-sm-4 col-md-3">
                     <div class="card align-items-center py-4 mb-4">
@@ -155,40 +163,53 @@
                   </div>
                 </div>
               </div>
-              <div class="card shadow p-4">
-                <div class="container">
-                    <h3>My Last Vacation</h3>
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non culpa enim deleniti, perspiciatis sequi
-                    ullam autem dolores officia soluta nemo ratione, magni rerum et amet?
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, repellat.</p>
-                    <img src="/images/nature1.jpg" alt="Example Img" class="img-fluid"/>
-                </div>
-                </div>
-              <div class="card shadow p-4">
-                <div class="container">
-                    <h3>Amazing Nature</h3>
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos officiis quasi odit tempora cum enim labore ab dignissimos perspiciatis quo quos nobis omnis illum, quod praesentium dicta ad aut? Quaerat fugit quis illum.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    <img src="/images/nature2.jpg" alt="Example Img" class="img-fluid"/>
-                </div>
-                </div>
-              <div class="card shadow p-4">
-                <div class="container">
-                    <h3>Sunset</h3>
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos officiis quasi odit tempora cum enim labore ab dignissimos perspiciatis quo quos nobis omnis illum, quod praesentium dicta ad aut? Quaerat fugit quis illum.
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    <img src="/images/nature3.jpg" alt="Example Img" class="img-fluid"/>
-                </div>
+            </div>
+            <div class="card shadow p-4">
+              <div class="container">
+                <div class="form-group">
+                  <label for="comment"><h4>Create New Post</h4></label>
+                  <textarea class="form-control" rows="5" placeholder="Write here..." id="comment"></textarea>
+                  <div>
+                    <input class="form-control mt-3" type="file" id="formFile">
+                  </div>
+                  <button class="btn btn-primary p-2 px-4 mt-5 float-end" type="submit">Submit</button>
                 </div>
               </div>
-            </div>
+              </div>
+            <div class="card shadow p-4">
+              <div class="container">
+                  <h3>My Last Vacation</h3>
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non culpa enim deleniti, perspiciatis sequi
+                  ullam autem dolores officia soluta nemo ratione, magni rerum et amet?
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, repellat.</p>
+                  <img src="/images/nature1.jpg" alt="Example Img" class="img-fluid"/>
+              </div>
+              </div>
+            <div class="card shadow p-4">
+              <div class="container">
+                  <h3>Amazing Nature</h3>
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos officiis quasi odit tempora cum enim labore ab dignissimos perspiciatis quo quos nobis omnis illum, quod praesentium dicta ad aut? Quaerat fugit quis illum.
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <img src="/images/nature2.jpg" alt="Example Img" class="img-fluid"/>
+              </div>
+              </div>
+            <div class="card shadow p-4">
+              <div class="container">
+                  <h3>Sunset</h3>
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos officiis quasi odit tempora cum enim labore ab dignissimos perspiciatis quo quos nobis omnis illum, quod praesentium dicta ad aut? Quaerat fugit quis illum.
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <img src="/images/nature3.jpg" alt="Example Img" class="img-fluid"/>
+              </div>
+              </div>
+
           </div>
+        </div>
         </div>
       </div>
     </main>

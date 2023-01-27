@@ -20,6 +20,7 @@
   "homepage": "https://github.com/ddyrnes/bootstrap-testing#readme",
   "dependencies": {
     "bootstrap": "^5.2.0",
+    "node-sass": "^8.0.0",
     "watch": "^1.0.2"
   },
   "devDependencies": {
