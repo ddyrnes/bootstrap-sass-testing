@@ -25,17 +25,13 @@ nav {
 //   height: 100vh;
 // }
 .background-img {
+  // Login picture full size on purpose. Looks terrible if resizing on large screens
   background-image: url(/images/splash-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   height: 100vh;
 }
-// main {
-//   height: 100%;
-// }
-// .navbar {
-//   position: absolute;
-//   top: 0px;
-//   width: 100%;
-// }
+.login-img {
+  max-width: 2000px;
+}

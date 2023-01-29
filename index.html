@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+    name="description"
+    content="Facegram Social Media | Home Page"
+  />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/css/styles.css" />
+    <script defer src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Facegram | Home Page</title>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-md bg-white shadow sticky-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand col-2 nav-logo-text"
+          ><img src="/images/brand_logo.png" alt="brand icon" class="px-2" />Facegram</a
+        >
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navcollapse"
+          aria-controls="nav"
+          aria-label="Expand Navigation"
+        >
+          <div class="navbar-toggler-icon"></div>
+        </button>
+        <div
+          class="collapse navbar-collapse p-3 text-center justify-content-end col-10 flex-l-col"
+          id="navcollapse"
+        >
+          <div class="navbar-nav justify-content-end col-xl-3 col-lg-4 col-md-5 col mt-2 gap-2">
+            <div class="nav-item col">
+                <a href="index.html" class="nav-link active border rounded-2">Home</a>
+            </div>
+            <div class="nav-item col">
+                <a href="login.html" class="nav-link">Login</a>
+            </div>
+            <div class="nav-item col">
+                <a href="profile.html" class="nav-link">Profile</a>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container top-10 position-relative p-0 mt-3">
+        <div class="row justify-content-center m-0">
+          <div class="col-lg-8 row gap-2 p-0">
+            <div class="card shadow bg-white p-4">
+                <div class="card-body">
+                    <class class="d-flex justify-content-center">
+                      <img src="/images/profile-img.png" alt="profile picture" width="80px" />
+                    </class>
+                    <div class="text-center my-6">
+                      <h1 href="#" class="d-block mb-0">User Name</h1>
+                      <span class="d-block text-sm text-muted">user.name@gmail.com</span>
+                    </div>
+ 
+                <div class="row mt-5">
+                    <div class="container">
+                        <div class="row gap-2">
+                          <div class="col-sm col-xs-12">
+                          <button data-bs-toggle="collapse" data-bs-target="#new-post" class="btn btn-primary py-2 px-3">New Post <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="ms-2 bi bi-plus-square" viewBox="0 0 16 16">
+                          <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                          </svg></button>
+                          </div>
+                          <div class="col-sm col-xs-12">
+                            <div>
+                              <form class="d-flex">
+                                <input class="form-control rounded-0 rounded-start" type="search" placeholder="Search post" aria-label="Search">
+                                <button class="btn btn-primary rounded-0 rounded-end" type="submit">Search</button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group collapse" id="new-post">
+                          <label for="comment"><h4 class="mt-3">Create New Post</h4></label>
+                          <textarea class="form-control" rows="5" placeholder="Write here..." id="comment"></textarea>
+                          <div>
+                            <input class="form-control mt-3" type="file" id="formFile">
+                          </div>
+                          <button class="btn btn-primary p-2 px-4 mt-5 float-end" type="submit">Submit</button>
+                        </div>
+                      </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="card shadow p-4">
+              <div class="container">
+                <div class="row mb-5">
+                  <div class="col">
+                    <h3>My Last Vacation</h3>
+                  </div>
+                  <div class="col d-flex justify-content-end align-items-center">
+                    <img src="/images/profile-img.png" alt="Example Img" class="img-fluid m-1" width="32px" />
+                    <h5 class="m-0 ms-1">Username</h5>
+                  </div>
+                </div>
+
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Non culpa enim deleniti, perspiciatis sequi
+                  ullam autem dolores officia soluta nemo ratione, magni rerum et amet?
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, repellat.</p>
+                  <img src="/images/nature1.jpg" alt="Nature image of trees and mountains" class="img-fluid"/>
+              </div>
+              </div>
+            <div class="card shadow p-4">
+              <div class="container">
+                <div class="row mb-5">
+                  <div class="col">
+                    <h3>Amazing Nature</h3>
+                  </div>
+                  <div class="col d-flex justify-content-end align-items-center">
+                    <img src="/images/profile-img.png" alt="Example Img" class="img-fluid m-1" width="32px" />
+                    <h5 class="m-0 ms-1">Username</h5>
+                  </div>
+                </div>
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos officiis quasi odit tempora cum enim labore ab dignissimos perspiciatis quo quos nobis omnis illum, quod praesentium dicta ad aut? Quaerat fugit quis illum.
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <img src="/images/nature2.jpg" alt="Nature image of docks with beautiful mountains behind" class="img-fluid"/>
+              </div>
+              </div>
+            <div class="card shadow p-4">
+              <div class="container">
+                <div class="row mb-5">
+                  <div class="col">
+                    <h3>Sunset</h3>
+                  </div>
+                  <div class="col d-flex justify-content-end align-items-center">
+                    <img src="/images/profile-img.png" alt="Example Img" class="img-fluid m-1" width="32px" />
+                    <h5 class="m-0 ms-1">Username</h5>
+                  </div>
+                </div>
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos officiis quasi odit tempora cum enim labore ab dignissimos perspiciatis quo quos nobis omnis illum, quod praesentium dicta ad aut? Quaerat fugit quis illum.
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <img src="/images/nature3.jpg" alt="Sunset at the beach" class="img-fluid"/>
+              </div>
+              </div>
+
+          </div>
+        </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
