@@ -9,8 +9,8 @@
     <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <title>Bootstrap</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-md bg-gradient bg-light sticky-top">
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-md bg-white shadow sticky-top">
       <div class="container">
         <a href="index.html" class="navbar-brand col-2 nav-logo-text"
           ><img src="/images/brand_logo.png" alt="brand icon" class="px-2" />Facegram</a
@@ -25,7 +25,7 @@
           <div class="navbar-toggler-icon"></div>
         </button>
         <div class="collapse navbar-collapse p-3 text-center justify-content-end col-10 flex-l-col" id="navcollapse">
-          <div class="navbar-nav justify-content-end col-xl-3 col-lg-4 col-md-5 col flex-row mt-2 gap-2">
+          <div class="navbar-nav justify-content-end col-xl-3 col-lg-4 col-md-5 col mt-2 gap-2">
             <div class="nav-item col">
               <a href="index.html" class="nav-link">Home</a>
             </div>
@@ -39,43 +39,19 @@
         </div>
       </div>
     </nav>
-    <main class="background-img container-xxl">
+    <main class="background-img container-xxl login-img">
       <div class="container top-30 position-relative">
         <div class="row justify-content-center">
           <div class="col-xl-4 col-lg-6 col-md-8 col-sm-10">
             <div class="card">
               <div class="card-body p-4">
-                <div class="d-flex justify-content-center mt-3 gap-1">
-                  <a href="index.html" class="navbar-brand col-2 nav-logo-text"
-                    ><img src="/images/brand_logo.png" alt="brand icon" class="px-2"
-                  /></a>
-                  <h1 class="card-title text-uppercase pb-3 text-center">Facegram</h1>
-                </div>
-
-                <!-- <form>
-                  <div class="form-group pb-3">
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                      placeholder="Enter email"
-                    />
-                  </div>
-                  <div class="form-group pb-3">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
-                  </div>
-                  <button type="submit" class="btn btn-primary p-2 px-4 float-end">Login</button>
-                </form> -->
-
+                <h1 class="card-title text-uppercase pb-3 mt-3 text-center">Facegram</h1>
                 <form class="p-3" action="/profile">
                   <div class="form-outline mb-4">
                     <input type="email" id="emailadress" class="form-control" required placeholder="Email adress" />
-                    <!-- <label class="form-label" for="emailadress">Email address</label> -->
                   </div>
                   <div class="form-outline mb-4">
                     <input type="password" id="password" class="form-control" required placeholder="Password" />
-                    <!-- <label class="form-label" for="password">Password</label> -->
                   </div>
                   <div class="row mb-4">
                     <div class="col">
@@ -88,9 +64,11 @@
                       <a href="#">Forgot password?</a>
                     </div>
                   </div>
-                  <button type="submit" value="Submit" class="btn btn-primary btn-block mb-4 px-4 py-2 text-center">
-                    Submit Form
-                  </button>
+                  <div class="row px-2">
+                    <button type="submit" value="Submit" class="btn btn-primary mb-4 px-4 py-2 text-center col-12">
+                      Login
+                    </button>
+                  </div>
 
                   <div class="text-center mt-4">
                     <p>Not a member? <a href="#">Register</a></p>
